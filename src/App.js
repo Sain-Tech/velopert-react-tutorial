@@ -20,6 +20,16 @@ function App() {
         <Button color="pink">BUTTON</Button>
         <Button color="pink" size="small">BUTTON</Button>
       </div>
+      <div className="buttons">
+        <Button color="pink" size="large" outline>BUTTON</Button>
+        <Button color="gray" outline>BUTTON</Button>
+        <Button color="blue" size="small" outline>BUTTON</Button>
+      </div>
+      <div className="buttons">
+        <Button color="pink" size="large" fullWidth>BUTTON</Button>
+        <Button color="gray" fullWidth>BUTTON</Button>
+        <Button color="blue" size="small" fullWidth>BUTTON</Button>
+      </div>
     </div>
   );
 }
